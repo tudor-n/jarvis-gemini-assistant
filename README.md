@@ -26,8 +26,10 @@ This assistant features a custom-built transparent widget style GUI, persistent 
 -Clone repository:
 git clone https://github.com/tudor-n/jarvis-gemini-assistant.git
 cd jarvis-gemini-assistant
+
 -Ensure you have Python 3.12 and install dependencies (I recommend creating a venv):
 pip install google-genai python-dotenv customtkinter spotipy pvporcupine pvrecorder SpeechRecognition pygame psutil
+
 -Set up a .env file with the API keys:
 GEMINI_API_KEY=your_gemini_api_key_here
 PICO_API_KEY=your_picovoice_access_key_here
