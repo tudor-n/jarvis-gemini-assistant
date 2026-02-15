@@ -18,7 +18,9 @@ This assistant features a custom-built transparent widget style GUI, persistent 
 //REQUIREMENTS//
 
 -Google Gemini API Key : https://aistudio.google.com/\
+
 -Picovoice Access Key : https://console.picovoice.ai/signup
+
 -Spotify Developer Credentials : Create an app on the Spotify Developer Dashboard https://developer.spotify.com/dashboard to get your Client ID and Client Secret. (Note: Playback control requires a Spotify Premium account).
 
 //INSTALLATION//
