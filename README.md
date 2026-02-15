@@ -26,10 +26,8 @@ This assistant features a custom-built transparent widget style GUI, persistent 
 -Clone repository:
 git clone https://github.com/tudor-n/jarvis-gemini-assistant.git
 cd jarvis-gemini-assistant
-
 -Ensure you have Python 3.12 and install dependencies (I recommend creating a venv):
 pip install google-genai python-dotenv customtkinter spotipy pvporcupine pvrecorder SpeechRecognition pygame psutil
-
 -Set up a .env file with the API keys:
 GEMINI_API_KEY=your_gemini_api_key_here
 PICO_API_KEY=your_picovoice_access_key_here
@@ -59,7 +57,5 @@ If left idle, JARVIS will occasionally chime in with witty remarks or suggestion
 //NOTES//
 
 -First Run: On the very first run, voice_output.py will automatically download the Piper executable and the voice model (~30MB). It may take a moment before he speaks for the first time.
-
 -Spotify Redirect: The first time you ask him to play a song, your browser will open to authenticate Spotify. After logging in, you will be redirected to a localhost URL. Copy that URL and paste it into the console if prompted, or let Spotipy cache it automatically.
-
 -Spotify Use: Spotify must determine an active connection, which entails playing a few songs for 10 seconds manually before JARVIS can properly interact with spotify, it's a quirk but once it works the session will not expire!
