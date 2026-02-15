@@ -59,5 +59,7 @@ If left idle, JARVIS will occasionally chime in with witty remarks or suggestion
 //NOTES//
 
 -First Run: On the very first run, voice_output.py will automatically download the Piper executable and the voice model (~30MB). It may take a moment before he speaks for the first time.
+
 -Spotify Redirect: The first time you ask him to play a song, your browser will open to authenticate Spotify. After logging in, you will be redirected to a localhost URL. Copy that URL and paste it into the console if prompted, or let Spotipy cache it automatically.
+
 -Spotify Use: Spotify must determine an active connection, which entails playing a few songs for 10 seconds manually before JARVIS can properly interact with spotify, it's a quirk but once it works the session will not expire!
