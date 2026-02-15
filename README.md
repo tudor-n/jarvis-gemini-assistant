@@ -1,7 +1,7 @@
 # jarvis-gemini-assistant
 //J.A.R.V.I.S.// - GEMINI AI ASSISTANT
 
-![J.A.R.V.I.S. Interface]("D:\jarvis.png")
+![J.A.R.V.I.S. Interface](jarvis.png)
 
 An interactive vocal assistant inspired by the Iron Man movies A.I, powered by Google Gemini 2.0 Flash.
 This assistant features a custom-built transparent widget style GUI, persistent SQLite memory for project management, Spotify playback control, and seamless voice interactions using local wake-word detection and offline Text-to-Speech (TTS).
